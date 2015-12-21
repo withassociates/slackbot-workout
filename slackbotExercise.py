@@ -11,6 +11,8 @@ import datetime
 
 from User import User
 
+from subprocess import call
+
 # Environment variables must be set with your tokens
 USER_TOKEN_STRING =  os.environ['SLACK_USER_TOKEN_STRING']
 URL_TOKEN_STRING =  os.environ['SLACK_URL_TOKEN_STRING']
@@ -222,6 +224,7 @@ def assignExercise(bot, exercise):
     # Announce the user
     if not bot.debug:
         requests.post(bot.post_URL, data=winner_announcement)
+        call(["blink1-tool", "--rgb", "0xff,0,00", "--blink 3"])
     print winner_announcement
 
 
