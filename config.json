@@ -1,10 +1,10 @@
 {
-  "teamDomain": "yourDomainHere",
-  "channelName": "general",
-  "channelId": "channelIdHere",
+  "teamDomain": "withassociates",
+  "channelName": "buff-unlimited",
+  "channelId": "C0GLSJ79A",
 
   "officeHours": {
-    "on": false,
+    "on": true,
     "begin": 9,
     "end": 17
    },
@@ -13,11 +13,11 @@
 
   "callouts": {
     "timeBetween": {
-      "minTime": 17,
-      "maxTime": 23,
+      "minTime": 25,
+      "maxTime": 40 ,
       "units": "minutes"
     },
-    "numPeople": 3,
+    "numPeople": 1,
     "slidingWindowSize": 8,
     "groupCalloutChance": 0.05
   },
@@ -26,36 +26,44 @@
     {
       "id": 0,
       "name": "pushups",
-      "minReps": 15,
-      "maxReps": 20,
+      "minReps": 10,
+      "maxReps": 15,
       "units": "rep"
     },
     {
       "id": 1,
       "name": "planks",
-      "minReps": 40,
-      "maxReps": 60,
+      "minReps": 30,
+      "maxReps": 50,
       "units": "second"
     },
     {
       "id": 2,
       "name": "wall sit",
-      "minReps": 40,
-      "maxReps": 50,
+      "minReps": 20,
+      "maxReps": 40,
       "units": "second"
     },
     {
       "id": 3,
       "name": "chair dips",
       "minReps": 15,
-      "maxReps": 30,
+      "maxReps": 25,
       "units": "rep"
     },
     {
       "id": 4,
       "name": "calf raises",
-      "minReps": 20,
-      "maxReps": 30,
+      "minReps": 15,
+      "maxReps": 25,
+      "units": "rep"
+    },
+
+      {
+      "id": 5,
+      "name": "squats",
+      "minReps": 10,
+      "maxReps": 15,
       "units": "rep"
     }
   ]
