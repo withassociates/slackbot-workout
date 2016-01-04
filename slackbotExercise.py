@@ -198,13 +198,13 @@ def assignExercise(bot, exercise):
 
     # EVERYBODY
     if random.random() < bot.group_callout_chance:
-        winner_announcement += "@channel!"
+        winner_announcement += "@here!"
 
         for user_id in bot.user_cache:
             user = bot.user_cache[user_id]
             user.addExercise(exercise, exercise_reps)
 
-        logExercise(bot,"@channel",exercise["name"],exercise_reps,exercise["units"])
+        logExercise(bot,"@here",exercise["name"],exercise_reps,exercise["units"])
 
     else:
         winners = [selectUser(bot, exercise) for i in range(bot.num_people_per_callout)]
