@@ -53,10 +53,10 @@
     },
     {
       "id": 4,
-      "name": "calf raises",
-      "minReps": 15,
-      "maxReps": 25,
-      "units": "rep"
+      "name": "leg stretch of your choice",
+      "minReps": 20,
+      "maxReps": 40,
+      "units": "secs"
     },
 
       {
@@ -65,6 +65,14 @@
       "minReps": 10,
       "maxReps": 15,
       "units": "rep"
+    },
+
+        {
+      "id": 6,
+      "name": "arm stretch of your choice",
+      "minReps": 20,
+      "maxReps": 40,
+      "units": "secs"
     }
   ]
 }
